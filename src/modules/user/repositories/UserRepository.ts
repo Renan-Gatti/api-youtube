@@ -61,4 +61,4 @@ class UserRepository {
     }
 }
 
-export {UserRepository}
+export {UserRepository};

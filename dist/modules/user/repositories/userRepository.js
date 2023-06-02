@@ -22,7 +22,7 @@ class UserRepository {
                 });
             });
         });
-    }
+    };
     login(request, response) {
         const { email, password } = request.body;
         mysql_1.pool.getConnection((err, connection) => {
